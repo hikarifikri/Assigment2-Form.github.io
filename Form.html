@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Buat Bootstrapnya -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Form.css">
+
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+
+    <title>Form</title>
+</head>
+<body>
+    <div class="Title">
+        <h1>Pendaftaran Mahasiswa Baru</h1>
+    </div>
+    <div class="isi">
+        <form action="" class="cortain">
+            <div class="kotak">
+                <label for="npm" style="margin-top: 6px;">NPM (Nomor Pokok Mahasiswa)</label>
+                <input type="number" name="nomorNpm" id="npm" style="margin-top: 10px;">
+            </div>
+            <div class="kotak">
+                <label for="nama" style="margin-top: 10px;">Nama Lengkap</label>
+                <input type="text" name="nama" id="nama" style="margin-top: 6px;">
+            </div>
+            <div class="kotak">
+                <label for="alamat" style="margin-top: 10px;">Alamat</label>
+                <textarea name="alamatTinggal" id="alamat" style="margin-top: 6px;" rows="2"></textarea>
+            </div>
+            <div class="kotak">
+                <label for="npm" style="margin-top: 10px;">Jenis Kelamin</label>
+                <div class="radios">
+                    <input type="radio" name="kelaminL" style="margin-top: 8px;"> Laki Laki
+                </div>
+                <div>
+                    <input type="radio" name="kelaminP" style="margin-top: 5px;"> Perempuan
+                </div>
+            </div>
+            <div class="kotak">
+                <label for="studi" style="margin-top: 8px;">Program Studi</label>
+                <select name="studi" id="studi" style="padding: 6px;">
+                    <option value="TI">Teknik Informatika</option>
+                    <option value="SI">Sistem Informasi</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" style="margin-top: 7px;">Tambah</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

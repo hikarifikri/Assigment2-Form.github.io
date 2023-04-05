@@ -1,0 +1,35 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cortain {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.kotak {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 2px;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin: auto;
+}
+button{
+    background-color: #0080fe;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
